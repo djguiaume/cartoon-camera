@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.epitech.mcamera.MainActivity" >
+
+ <item
+   android:title="@string/action_settings"
+   android:showAsAction="never"
+   android:id="@+id/settings" >
+</item>
+    
+</menu>

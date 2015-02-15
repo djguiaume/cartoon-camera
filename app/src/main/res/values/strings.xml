@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cartoon camera</string>
+    <string name="action_settings">Settings</string>
+    
+     <string-array name="type_format">
+        <item name="Format1">AAC</item>
+        <item name="Format2">AAC_ELD</item>
+        <item name="Format3">AMR_NB</item>
+        <item name="Format3">AMR_WB</item>
+        <item name="Format3">DEFAULT</item>
+        <item name="Format3">HE_AAC</item>
+    </string-array>
+
+      <string-array name="type_format_value">
+        <item name="Format1">AAC</item>
+        <item name="Format2">AAC_ELD</item>
+        <item name="Format3">AMR_NB</item>
+        <item name="Format3">AMR_WB</item>
+        <item name="Format3">DEFAULT</item>
+        <item name="Format3">HE_AAC</item>
+    </string-array>
+</resources>

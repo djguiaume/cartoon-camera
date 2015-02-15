@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Video" >
+
+        <!-- <ListPreference -->
+        <!-- android:defaultValue="1" -->
+        <!-- android:entries="@array/type_format" -->
+        <!-- android:entryValues="@array/type_format_value" -->
+        <!-- android:key="set_format" -->
+        <!-- android:summary="Choose your sound encoder" -->
+        <!-- android:title="File format" /> -->
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="switch_size"
+            android:switchTextOff="LOW"
+            android:switchTextOn="HIGH"
+            android:title="Quality" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Photo" >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="gps_switch"
+            android:title="Geottaging" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="flash_switch"
+            android:title="Flash" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="face_switch"
+            android:title="Face detection" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
